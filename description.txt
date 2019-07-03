@@ -6,3 +6,6 @@ About the dataset: It contains 28 x 28 grayscale images with handwritten digits 
 Using the PIL library. It can be installed by running 
 $ conda install -c anaconda pil 
 in anaconda prompt.
+
+
+It's not really possible to say which approachor algorithm is the best to classify this MNIST dataset because that depends on many factors and they can be fine-tuned to improve their performance. The K-nearest neighbors algorithm is fast to train the data but is slow to compute the results. On the other hand, the Random Forest is faster to classify the data. The results obtained with LinearSVC were less good, but this could probably be improved by using better parameters.
