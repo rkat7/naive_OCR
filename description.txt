@@ -1,0 +1,8 @@
+Using Scikit learn to perform ML based classification on the MNIST database of handwritten digits.
+Applying 3 different algorithms - K nearest neighbors, Random Forests, Linear SVC
+
+About the dataset: It contains 28 x 28 grayscale images with handwritten digits ranging between 0 and 9.
+
+Using the PIL library. It can be installed by running 
+$ conda install -c anaconda pil 
+in anaconda prompt.
